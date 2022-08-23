@@ -4,7 +4,7 @@ selectMenu = document.querySelectorAll("select"),
 setAlarmBtn = document.querySelector("button");
 let alarmTime, 
 isAlarmSet = false,
-ringtone = new Audio("/Audio.mp3");
+ringtone = new Audio("Audio.mp3");
 for (let i = 12; i > 0; i--) {
     i = i < 10 ? "0" + i : i;
     let option = `<option value="${i}">${i}</option>`;
